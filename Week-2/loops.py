@@ -18,3 +18,18 @@ for i in nums:
    if i<0:
       continue
    print(i)
+
+   nums=[0,1,2,3,-7,4,5]
+for i in nums:
+   if i<0:
+      break
+   print(i)
+
+   countries=["finland", "Sweden", "Norway","Denmark", "Iceland"]
+
+for c in countries:
+   if "land" in c:
+      continue
+   print(c)
+
+   
